@@ -31,9 +31,14 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
       They are used to insure that the right type of data is pulled and is formated in the correct way so as not to cause issues or bugs. Since javascript can combine different types of data, this ensures everything is synchronized and no errors will occur from the data being pulled.
 - [ ] Describe a life-cycle event in React?
+      There is the Mounting phase, Updating phase and unmounting phase. The first state runs the constructor and then renders the data from componentDidMount. The second state is when the component when
 
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+* [ ] Explain the details of a Higher Order Component?
+      It allows for components to be passed to another component. This can be used when making a login or other components. Also can send props/functions to other components using HOCs.
+* [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+      React components can be styled through css or preprocessor, styled components or inline styling.
+
+Styled components and inline styling can be done within the react file. While css can be imported from to use for the component.
 
 ## Project Setup
 

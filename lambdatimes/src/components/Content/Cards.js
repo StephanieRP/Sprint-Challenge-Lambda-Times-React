@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Card from "./Card";
 import PropTypes from "prop-types";
 import * as cardstyle from "../../styles/cardsstyle";
+
 const Cards = props => {
   return (
     <cardstyle.CardsContainer>

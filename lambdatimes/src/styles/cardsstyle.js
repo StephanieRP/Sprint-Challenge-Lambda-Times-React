@@ -10,10 +10,6 @@ export const CardContainer = styled.div`
   width: 380px;
   margin-bottom: 16px;
   padding: 24px;
-
-  @media (min-width: 1200px) {
-    width: 1200px;
-  }
 `;
 
 export const CardHeadline = styled.div`

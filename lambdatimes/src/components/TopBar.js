@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 // Styled Components
 import * as styles from "../styles/topbarstyle";
